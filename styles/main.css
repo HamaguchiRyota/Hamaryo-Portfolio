@@ -1,5 +1,6 @@
 @font-face {
   font-feature-settings: none;
+  font-kerning: normal;
   font-family: 'Inter var';
   font-style: normal;
   font-weight: 100 900;
@@ -8,6 +9,7 @@
 }
 @font-face {
   font-feature-settings: none;
+  font-kerning: normal;
   font-family: 'Inter var';
   font-style: italic;
   font-weight: 100 900;
@@ -17,7 +19,8 @@
 }
 
 body {
-  font-feature-settings: normal;
+  font-feature-settings: none;
+  font-kerning: normal;
   font-family: 'Inter var', system-ui, -apple-system, BlinkMacSystemFont,
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif,
     'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
